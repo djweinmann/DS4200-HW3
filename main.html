@@ -8,5 +8,43 @@
   </head>
   <body>
     <h1>Welcome to Dylan's Website</h1>
+
+    <div>
+      <button id="navigationButton">Interest Page</button>
+      <button id="navigationButton2">Contact Page</button>
+      <img src="headshot.png" alt="" width="200" />
+      <p>
+        Hi, I'm Dylan Weinmann. I'm a third year Data Science student
+        atNortheastern University. I’m excited to have made this website for you
+        to browse through and hopefully it can help you learn a bit more about
+        me. I’m initially from Seattle, Washington and have lived there my whole
+        life up until my freshman year of college. Since then, I’ve lived in
+        Boston for school, but I did take my first semester abroad in London. I
+        have two younger brothers, aged 13 and 17, and two pet dogs named Dixie
+        and Selah. When I’m home, I like to spend a lot of time outdoors. I used
+        to do this mostly through running on my school’s track and cross country
+        teams throughout high school, but since graduating I’ve gotten more into
+        hiking. The mountains to the east of Seattle are beautiful and have
+        limitless hikes that are fantastic in the summer. In the winter, I used
+        to love skiing, but haven’t as much in recent years. In Boston during
+        school I don’t have as much time to be outdoors, but I do get quite a
+        bit of time walking to and from class every day. My biggest activity I
+        do here is rock climbing, which I’ll go into more depth about on my
+        special interest page!
+      </p>
+    </div>
+
+    <script>
+      const navigationButton = document.getElementById("navigationButton");
+      navigationButton.addEventListener("click", function () {
+        window.location.href = "second.html";
+      });
+    </script>
+    <script>
+      const navigationButton2 = document.getElementById("navigationButton2");
+      navigationButton2.addEventListener("click", function () {
+        window.location.href = "contact.html";
+      });
+    </script>
   </body>
 </html>

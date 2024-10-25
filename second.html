@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Climbing</h1>
+    <div>
+      <button id="navigationButton">Home Page</button>
+      <button id="navigationButton2">Contact Page</button>
+      <img src="bouldering.jpg" alt="" width="500" />
+      <p>
+        I got into bouldering the summer of 2022, right before I was headed to
+        London for my first semester of college. It felt like a good way to stay
+        active after I was done with running and two of my friends started at
+        the same time so I had a good group to go with. I loved it right off the
+        bat and continued doing it when I was abroad, and now have been climbing
+        consistently for over two years! I’ve met many of my closest friends
+        through climbing, even one of my roommates and my girlfriend. I love how
+        it doesn’t just challenge my body, but each individual climb is a puzzle
+        that I need to solve, and there can be many different solutions that
+        work for different people. So far I’ve only ever climbed indoors in
+        gyms, but I’m excited to get the chance to go and explore some outdoor
+        climbs this coming spring and summer. As much as I do love climbing, it
+        does have some definite downsides. It’s a big time commitment having to
+        travel to the gym and back, and I’ve faced multiple injuries due to
+        overwork in my arms. Despite this, I intend to keep climbing for a long
+        time and love it as a hobby.
+      </p>
+    </div>
+
+    <script>
+      const navigationButton = document.getElementById("navigationButton");
+      navigationButton.addEventListener("click", function () {
+        window.location.href = "main.html";
+      });
+    </script>
+    <script>
+      const navigationButton2 = document.getElementById("navigationButton2");
+      navigationButton2.addEventListener("click", function () {
+        window.location.href = "contact.html";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Contact Page</h1>
+    <div>
+      <button id="navigationButton">Home Page</button>
+      <button id="navigationButton2">Interest Page</button>
+      <p>Instagram: https://www.instagram.com/weinmann.dylan/</p>
+      <p>Email: dylanweinmann@gmail.com</p>
+    </div>
+
+    <script>
+      const navigationButton = document.getElementById("navigationButton");
+      navigationButton.addEventListener("click", function () {
+        window.location.href = "main.html";
+      });
+    </script>
+    <script>
+      const navigationButton2 = document.getElementById("navigationButton2");
+      navigationButton2.addEventListener("click", function () {
+        window.location.href = "second.html";
+      });
+    </script>
+  </body>
+</html>
